@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_challenges/daily_ui/daily_ui_screen.dart';
 import 'package:flutter_challenges/mountain_view/mountain_view_screen.dart';
 
 void main() {
@@ -41,6 +42,15 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const DailyUIScreen()),
+                  );
+                },
+                child: const Text('Daily UI')),
             TextButton(
                 onPressed: () {
                   Navigator.push(
