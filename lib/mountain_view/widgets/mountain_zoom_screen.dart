@@ -14,18 +14,20 @@ class MountainZoomScreen extends StatelessWidget {
     return Stack(
       children: [
         Hero(
-            tag: mountain.name,
-            child: PhotoView(
-              imageProvider: AssetImage(mountain.img),
-              initialScale: PhotoViewComputedScale.covered,
-            )),
+          tag: mountain.name,
+          child: 
+          PhotoView(
+            imageProvider: AssetImage(mountain.img),
+            initialScale: PhotoViewComputedScale.covered,
+          ),
+        ),
         Positioned(
           right: 20,
           top: MediaQuery.of(context).size.height * 0.1,
           child: ButtonClose(function: () {
             Navigator.of(context).pop();
           }),
-        )
+        ),
       ],
     );
   }

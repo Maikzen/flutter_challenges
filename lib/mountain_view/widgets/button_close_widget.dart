@@ -6,7 +6,7 @@ class ButtonClose extends StatelessWidget {
     required this.function,
   }) : super(key: key);
 
-  final VoidCallback function;
+  final VoidCallback? function;
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +20,7 @@ class ButtonClose extends StatelessWidget {
           color: Colors.white,
         ),
         style: ButtonStyle(
-            backgroundColor:
-                MaterialStateProperty.all(Colors.black12),
+            backgroundColor: MaterialStateProperty.all(Colors.black12),
             shape: MaterialStateProperty.all(RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(50.0),
             ))),

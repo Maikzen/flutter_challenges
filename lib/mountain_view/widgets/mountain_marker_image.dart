@@ -45,10 +45,13 @@ class MountainMarkerImage extends StatelessWidget {
                       padding: EdgeInsets.zero,
                       constraints: const BoxConstraints(),
                       onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => MountainZoomScreen(
-                              mountain: listMountains[_currentIndex]),
-                        ));
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => MountainZoomScreen(
+                              mountain: listMountains[_currentIndex],
+                            ),
+                          ),
+                        );
                       },
                       icon: const Icon(
                         MdiIcons.imageFilterHdr,
