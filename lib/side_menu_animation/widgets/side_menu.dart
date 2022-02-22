@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challenges/side_menu_animation/side_menu_animation_screen.dart';
 import 'package:flutter_challenges/side_menu_animation/widgets/button_close_widget.dart';
 import 'package:flutter_challenges/side_menu_animation/data/categories.dart';
 import 'package:flutter_challenges/side_menu_animation/widgets/category_widget.dart';

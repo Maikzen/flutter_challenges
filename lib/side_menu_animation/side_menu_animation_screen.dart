@@ -63,6 +63,7 @@ class _SideMenuAnimationScreenState extends State<SideMenuAnimationScreen>
 }
 
 class SideMenuAnimationInherented extends InheritedWidget {
+  // ignore: annotate_overrides, overridden_fields
   final Widget child;
   final SideMenuBloc sideMenuBloc;
 
