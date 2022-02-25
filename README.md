@@ -1,16 +1,12 @@
-# flutter_challenges
+# Flutter challenges
 
-A new Flutter project.
+Challenges based on pinterest/dribble designs.
 
-## Getting Started
+## Examples
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+<tr><th>Daily ui</th><th>Animation beers</th></tr>
+<tr><td>![daily_ui](/lib/daily_ui/daily-ui.gif)</td><td>![animation_beers](/lib/animation_beers/beers-animation.gif)</td></tr>
+<tr><th>Side menu animation</th><th>Mountain view</th></tr>
+<tr><td>![side_menu_animation](/lib/side_menu_animation/side-menu.gif)</td><td>![mountain_view](/lib/mountain_view/mountains-animation.gif)</td></tr>
+</table>
