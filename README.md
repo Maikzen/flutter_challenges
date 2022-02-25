@@ -13,6 +13,6 @@ Challenges based on pinterest/dribble designs.
 <tr><th>Side menu animation</th><th>Mountain view</th></tr>
 <tr>
     <td><img src="https://github.com/Maikzen/flutter_challenges/blob/main/lib/side_menu_animation/side-menu.gif" width="250" title="Side menu animation"/></td>
-    <td><img src="https://github.com/Maikzen/flutter_challenges/blob/main/lib/mountain_view/mountains-animation.gif" width="250" title="Mountain view"/></td>
+    <td><img src="https://github.com/Maikzen/flutter_challenges/blob/main/lib/mountain_view/mountains-animation.gif" width="250" title="Mountain view"/><br><p><a href="https://www.pinterest.es/pin/354728908145468648/">Original design</a></p></td>
 </tr>
 </table>
