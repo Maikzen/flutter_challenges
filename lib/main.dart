@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_challenges/animation_beers/animation_beers_screen.dart';
 import 'package:flutter_challenges/daily_ui/daily_ui_screen.dart';
 import 'package:flutter_challenges/mountain_view/mountain_view_screen.dart';
 import 'package:flutter_challenges/side_menu_animation/side_menu_animation_screen.dart';
@@ -52,6 +53,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
                 child: const Text('Daily UI')),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AnimationBeersScreen()),
+                  );
+                },
+                child: const Text('Beers Animation')),
             TextButton(
                 onPressed: () {
                   Navigator.push(
