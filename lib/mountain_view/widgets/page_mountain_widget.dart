@@ -45,9 +45,6 @@ class PageMountain extends StatelessWidget {
     } else if (opacityText >= 1) {
       opacityText = 1 - (opacityText - opacityText.toInt());
     }
-    // print('index: $index, anim: $animationValue, opacity: $opacity');
-    // print('index: $index, anim: $animationValue, scale: $scale');
-    // print('index: $index, anim: $animationValue, opacityText: $opacityText');
     return Stack(
       children: [
         AnimatedBuilder(
@@ -88,7 +85,9 @@ class PageMountain extends StatelessWidget {
             return Positioned(
               right: -80 + animationController.value * 100,
               top: MediaQuery.of(context).size.height * 0.1,
-              child: ButtonClose(function: (){animationController.reverse();}),
+              child: ButtonClose(function: () {
+                animationController.reverse();
+              }),
             );
           },
         ),
