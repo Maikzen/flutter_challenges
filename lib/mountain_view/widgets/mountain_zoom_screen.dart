@@ -15,8 +15,7 @@ class MountainZoomScreen extends StatelessWidget {
       children: [
         Hero(
           tag: mountain.name,
-          child: 
-          PhotoView(
+          child: PhotoView(
             imageProvider: AssetImage(mountain.img),
             initialScale: PhotoViewComputedScale.covered,
           ),
