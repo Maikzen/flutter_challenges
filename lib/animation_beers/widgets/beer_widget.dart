@@ -113,7 +113,7 @@ class _BeerWidgetState extends State<BeerWidget> with TickerProviderStateMixin {
             widget.beer.name,
             style: Theme.of(context)
                 .textTheme
-                .headline5
+                .headlineSmall
                 ?.copyWith(color: widget.beer.color),
           ),
           const SizedBox(
@@ -121,14 +121,14 @@ class _BeerWidgetState extends State<BeerWidget> with TickerProviderStateMixin {
           ),
           Text(
             widget.beer.desc,
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyLarge,
           ),
           const SizedBox(
             height: 20,
           ),
           Text(
             'From \$' + widget.beer.price.toStringAsFixed(2),
-            style: Theme.of(context).textTheme.headline6,
+            style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(
             height: 20,

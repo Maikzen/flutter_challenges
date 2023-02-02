@@ -32,7 +32,7 @@ class BeerDetailScreen extends StatelessWidget {
                     'Descripción',
                     style: Theme.of(context)
                         .textTheme
-                        .bodyText1
+                        .bodyLarge
                         ?.copyWith(color: beer.color),
                   ),
                   const SizedBox(
@@ -45,11 +45,11 @@ class BeerDetailScreen extends StatelessWidget {
                   ),
                   Text(
                     beer.desc,
-                    style: Theme.of(context).textTheme.bodyText1,
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                   Text(
                     'From \$' + beer.price.toStringAsFixed(2),
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.titleLarge,
                   ),
                   const Spacer(),
                   SizedBox(

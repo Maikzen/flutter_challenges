@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challenges/animation_beers/animation_beers_screen.dart';
+import 'package:flutter_challenges/appliances/home/home_screen.dart';
 import 'package:flutter_challenges/daily_ui/daily_ui_screen.dart';
+import 'package:flutter_challenges/job_search/home/home_screen.dart';
 import 'package:flutter_challenges/mountain_view/mountain_view_screen.dart';
 import 'package:flutter_challenges/side_menu_animation/side_menu_animation_screen.dart';
 
@@ -80,6 +82,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
                 child: const Text('Mountain view')),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const SearchJobScreen()),
+                  );
+                },
+                child: const Text('Search job app')),
+            TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AppliancesScreen()),
+                  );
+                },
+                child: const Text('Appliances app')),
           ],
         ));
   }

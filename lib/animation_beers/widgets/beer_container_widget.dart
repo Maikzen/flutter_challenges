@@ -31,7 +31,7 @@ class BeerContainer extends StatelessWidget {
                   beer.name,
                   style: Theme.of(context)
                       .textTheme
-                      .headline4
+                      .headlineMedium
                       ?.copyWith(color: Colors.white),
                 ),
               ),
